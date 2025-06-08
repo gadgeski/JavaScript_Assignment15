@@ -9,7 +9,11 @@ body {
   background-color: #c0c0c0;
   color: #333;
 }
+/*====================================================
 
+PasswordField
+
+====================================================*/
 .password-field {
   background-color: #f8f8f8;
   padding: 30px;
@@ -102,9 +106,11 @@ Box
   height: 100%;
   border-color: rgba(255, 255, 255, 0.3);
   transition-delay: 0s;
+  border-radius: 10px;
 }
 .box:hover {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   transition-delay: 0.3s;
+  border-radius: 10px;
 }
