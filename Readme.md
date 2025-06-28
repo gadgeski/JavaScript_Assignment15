@@ -28,29 +28,29 @@
 
 <h3>div class="box"</h3>
 
-    - div 要素は一般的なグループ化のための要素です。
+- div 要素は一般的なグループ化のための要素です。
 
-    - class="box"が指定されており、後述する CSS でこの要素に特定のスタイル（装飾的な枠など）が適用されます。
+- class="box"が指定されており、後述する CSS でこの要素に特定のスタイル（装飾的な枠など）が適用されます。
 
-    - この div の中には「パスワードの表示/非表示」というテキストが表示されます。
+- この div の中には「パスワードの表示/非表示」というテキストが表示されます。
 
 <h3>br</h3> 改行を表します。
 
 <h3>div class="password-field"</h3>
 
-    - パスワード入力に関連する要素をまとめるための div 要素です。
+- パスワード入力に関連する要素をまとめるための div 要素です。
 
-    - class="password-field"が指定されており、CSS でこのグループ全体にスタイルが適用されます。
+- class="password-field"が指定されており、CSS でこのグループ全体にスタイルが適用されます。
 
 <h3>input type="password" id="passwordInput" placeholder="パスワードを入力"</h3>
 
-    - パスワード入力欄を作成します。
+- パスワード入力欄を作成します。
 
-    - type="password": 入力された文字が「●」や「\*」のように隠れて表示されます。
+- type="password": 入力された文字が「●」や「\*」のように隠れて表示されます。
 
-    - id="passwordInput": JavaScript からこの要素を特定するためのユニークな識別子です。
+- id="passwordInput": JavaScript からこの要素を特定するためのユニークな識別子です。
 
-    - placeholder="パスワードを入力": 入力欄が空の場合に薄い文字で表示されるヒントのテキストです。
+- placeholder="パスワードを入力": 入力欄が空の場合に薄い文字で表示されるヒントのテキストです。
 
 <h3>input type="checkbox" id="togglePassword"</h3>
 
